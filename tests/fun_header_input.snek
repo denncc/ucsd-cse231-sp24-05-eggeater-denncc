@@ -1,0 +1,5 @@
+(fun (fox a input)
+    (+ a input)
+) 
+
+(fox 2 3)

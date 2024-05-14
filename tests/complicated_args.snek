@@ -1,0 +1,15 @@
+(fun (temp a b c d e) 
+        (let ((x
+       (add1 (+
+              (*
+               (- (* (sub1 a) (add1 b)) c)
+               (sub1 d))
+              (* -1 e))))
+      (y
+       (sub1 (+ -17 x))))
+  y)
+)
+
+(
+    temp 1 2 3 4 88
+)

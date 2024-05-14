@@ -1,0 +1,5 @@
+(fun (fox a b)
+    (+ a b)
+) 
+
+(fox 1 1)

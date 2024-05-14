@@ -1,0 +1,11 @@
+(fun (func1 a b c d)
+  (
+    block (
+
+    (print b)
+    (print a)
+    )
+    
+  )
+)
+(func1 1 2 3 4)

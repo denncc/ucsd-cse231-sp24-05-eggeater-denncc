@@ -1,0 +1,5 @@
+(fun (fox a b)
+    (+ a b)
+) 
+
+(brown 2 3)

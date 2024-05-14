@@ -1,0 +1,12 @@
+(fun (temp counter a b c d e)
+     (if (= counter 0) a (let ((x
+                                  (add1 (+
+                                         (*
+                                          (- (* (sub1 a) (add1 b)) c)
+                                          (sub1 d))
+                                         (* -1 e))))
+                                 (y
+                                  (sub1 (+ -17 x))))
+                             (temp (sub1 counter) (+ a x) (- b y) e 3 e))))
+
+(temp input 1 2 3 4 88)
